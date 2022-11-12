@@ -1,0 +1,40 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+.anchor
+.DS_Store
+target
+test-ledger
+**/*.rs.bk
+
+# dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# testing
+
+/coverage
+*.rej
+# production
+public/build
+server/
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+react-app-env.d.ts
+.env
+.vscode/
+
+.coderrect/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.cache/
+nova5ZKqeP5ck1ebcX8YFevUPmkW34cxRZxDSq267Gc.json
+drpkvcStYvctT8vtmNkBUP1BSGiCPSHUnT8xhXL7i5j.json
+nva24Y1vHfhCrCLcqqFLXher9uZR4JjKP4D89MHhkmA.json
+air1gq1zcZ9srzZihj1T6RsT5rdfkHs2PvnR7VZf7th.json
